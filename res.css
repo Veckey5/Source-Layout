@@ -1,0 +1,292 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.3;
+}
+
+header{    
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid grey; */
+    background-color: #F5F9FC;
+    padding-top: 0.5%;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    /* border: 2px solid blue; */
+    float: left;
+    font-size: 0.9rem;
+    margin-left: 4vw;
+    color: #314A59;
+    font-weight: 550;
+}
+
+h3{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #314A59;
+}
+
+span{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+h1{
+    font-size: 1.7rem;
+    padding-bottom: 2vh;
+    /* color: rgb(17, 17, 49) */
+    color: #314A59;
+}
+
+img{
+    /* width: 41vw;
+    padding-left: 10vw; */
+    object-fit: contain;
+    
+}
+
+.source-headline{
+    height: 60vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    padding-left: 5%;
+    background-color: #F5F9FC;
+    padding-top: 3%;
+    
+}
+
+.features{
+    height: 33vh;
+    width: 100%;
+    /* border: 2px solid blue; */
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #F5F9FC;
+    padding-top: 4%;
+}
+
+.source-logo{
+    height: 100%;
+    width: 15%;
+    /* border: 2px solid gold; */
+    float: left;
+    
+}
+
+.nav-links{
+    height: 100%;
+    width: 70%;
+    /* border: 2px solid brown; */
+    float: left;
+    
+}
+
+.nav-button{
+    height: 100%;
+    width: 15%;
+    /* border: 2px solid orangered; */
+    float: left;
+}
+
+.tagline{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid yellow; */
+    float: left;
+}
+
+.media-screens{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid yellow; */
+    float: left;
+    
+}
+
+.feature-sequence{
+    height: 100%;
+    width: 22%;
+    /* border: 2px solid green; */
+    float: left;
+    margin-right: 3%;
+}
+
+.information{
+    height: 23vh;
+    width: 100%;
+    /* border: 2px solid purple; */
+    background-color: #FFFFFF;
+}
+
+.heading{
+    height: 50%;
+    width: 100%;
+    /* border: 2px solid cornflowerblue; */
+    padding-left: 5%;
+}
+
+.context{
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid brown; */
+    padding-left: 5%;
+    
+}
+
+.grey{
+    height: 15%;
+    border: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(226, 221, 221);
+}
+
+
+.link-lists{
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid rebeccapurple; */
+    margin-bottom: 15%;
+    padding-left: 16vw;
+    padding-top: 2vh;
+}
+
+.button{
+    height: 100%;
+    width: 92%;
+    /* border: 2px solid rebeccapurple; */
+    margin-left: 4%;
+    
+    
+}
+
+.top-tagline{
+    height: 45%;
+    width: 100%;
+    /* border: 2px solid peru; */
+    margin-bottom: 2%;
+}
+
+.form{
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid peru; */
+    margin-bottom: 2%;
+}
+
+
+.paragraph{
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid peru; */
+    margin-bottom: 2%;
+    
+}
+
+.left-nav{
+    padding-left: 3vw;
+    top: 6vh;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #314A59;
+   
+}
+
+.button{
+    padding-left: 6vw;
+    padding-top: 1vh;
+    
+}
+
+.white{
+    /* background-color: rgb(6, 6, 99); */
+    background-color: #314A59;
+    font-size: 0.9rem;
+    padding-left: 1.2vw;
+    padding-top: 1vh;
+    padding-right: 1.2vw;
+    padding-bottom: 1vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+
+}
+
+input{
+    padding-left: 1.2vw;
+    padding-top: 1vh;
+    padding-right: 1.2vw;
+    padding-bottom: 1vh;
+    background-color: rgb(226, 226, 247);
+    border: 1px solid rgb(213, 213, 223); 
+}
+
+input[type="text"]{
+    color: rgb(8, 8, 68);
+    font-size: 0.8rem;
+}
+
+form{
+    margin-top: 1.5vh;
+    border-right: none;
+}
+
+.form-btn{
+    /* background-color: rgb(4, 4, 65); */
+    background-color: #314A59;
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.tagline-para{
+    font-size: 0.8rem;
+    color: #314A59;
+    /* color: rgb(17, 17, 49); */
+}
+
+.feature-sequence p{
+    color: #314A59;
+    font-weight: 600;
+}
+
+h4{
+    color: #314A59;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.fa{
+    color: #314A59;
+    font-size: 25px;
+    
+}
+
+h2{
+    color: #314A59;
+    font-size: 1.9rem;
+}
+
+h5{
+    color: #314A59;
+    font-size: 0.8rem;
+    font-weight: 300;
+    
+}
